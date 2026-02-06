@@ -39,11 +39,6 @@ Run the agent:
 python web-agent.py
 ```
 
-**Example Commands:**
-* "Navigate to https://www.facemash.in"
-* "Login with username 'test' and password 'test'"
-* "Find the Logout button and click it"
-
 ## ⚠️ Notes
 * **Crash-Safe:** The agent uses custom robust tools. If a selector fails, it will report the error instead of crashing.
 * **Async Mode:** The browser runs asynchronously. Do not manually close the browser window while the agent is thinking.

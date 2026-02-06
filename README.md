@@ -18,7 +18,7 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 # Install Python dependencies
 pip install langchain langchain-google-genai langchain-community langgraph playwright beautifulsoup4
-or
+# or
 pip install -r requirements.txt
 
 # Install browser binaries for Playwright
